@@ -48,9 +48,9 @@ function App() {
     <Router>
       <nav className="  p-4 bg-gray-800  text-white flex justify-between items-center">
         <h1 className="text-2xl uppercase font-bold ">Store</h1>
-        <Link to="https://react-router-task-store.netlify.app/">Products</Link>
-        <Link to="https://react-router-task-store.netlify.app/cart">Cart</Link>
-        <Link to="https://react-router-task-store.netlify.app/cart">
+        <Link to="/">Products</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/cart">
           <button className=" flex justify-between items-center gap-3 text-white px-4 py-2 rounded-full bg-blue-500 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -74,11 +74,11 @@ function App() {
       </nav>
       <Routes>
         <Route
-          path="https://react-router-task-store.netlify.app/"
+          path="/"
           element={<ProductPage addToCart={addToCart} cartItems={cartItems} />}
         />
         <Route
-          path="https://react-router-task-store.netlify.app/cart"
+          path="/cart"
           element={
             <CartPage
               cartItems={cartItems}
