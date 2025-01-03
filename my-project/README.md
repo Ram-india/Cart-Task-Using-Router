@@ -26,4 +26,4 @@ A responsive e-commerce application that fetches products from the [Fake Store A
 
 ## Check out the live demo of this project:
 
-[View the Live Demo of My Project](https://example.com)
+[View the Live Demo of My Project](https://admirable-jalebi-9e1c57.netlify.app/cart)
